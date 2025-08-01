@@ -40,53 +40,74 @@
             <img class="w-[15px] h-[15px]" src="./assets/icons/x.svg" alt="" />
           </div>
         </div>
-        <div class="flex flex-col items-center gap-4 justify-between">
+        <div
+          class="flex flex-col items-center gap-6 px-4 py-10 sm:py-12 md:py-16 max-w-3xl mx-auto bg-black bg-opacity-70 rounded-xl shadow-lg relative"
+        >
+          <!-- Close Button -->
+          <button
+            class="absolute top-4 right-4 text-gray-300 hover:text-red-500 text-xl sm:text-2xl font-bold focus:outline-none"
+          ></button>
+
+          <!-- Heading -->
           <h1
-            class="text-3xl sm:text-4xl font-bold text-cyan-400 uppercase drop-shadow-lg text-center"
+            class="text-3xl sm:text-4xl font-bold text-cyan-400 uppercase drop-shadow-lg text-center tracking-wider"
           >
-            ABOUT ME
+            About Me
           </h1>
+
+          <!-- Profile Image -->
           <div
             class="rounded-full w-[120px] sm:w-[150px] p-1 bg-amber-50 shadow-md drop-shadow-[0_0px_50px_rgba(59,130,246,0.2)]"
           >
             <img
-              class="rounded-full w-full"
+              class="rounded-full w-full object-cover"
               src="./assets/images/1699275385587.jpeg"
-              alt=""
+              alt="Profile"
             />
           </div>
+
+          <!-- Short Intro -->
           <p
-            class="text-gray-300 text-center text-lg sm:text-xl tracking-wide px-4"
+            class="text-gray-300 text-center text-base sm:text-lg tracking-wide leading-relaxed px-2 sm:px-6"
           >
             B.Tech CSE Student | Learning Full-Stack Development | HTML | CSS |
             JavaScript | TypeScript | React.js | Tailwind CSS | Node.js |
-            Express.js | MongoDB
+            Express.js | MongoDB | AntDesign | Redux Toolkit
           </p>
+
+          <!-- Detailed Info -->
           <div
-            class="flex flex-col gap-2 text-gray-300 text-base sm:text-lg font-medium leading-relaxed px-4"
+            class="flex flex-col gap-4 text-gray-300 text-sm sm:text-base font-medium leading-relaxed px-2 sm:px-6"
           >
             <p>
               <span class="text-cyan-400 font-bold">•</span>
-              <span class="font-bold">Student:</span> Passionate B.Tech CSE
-              student with a strong foundation in C, C++, Java, and Python.
+              <span class="font-bold">Student:</span> Final-year B.Tech CSE
+              student at Haldia Institute of Technology with a strong foundation
+              in C, C++, Java, and Python, and a passion for building efficient,
+              real-world software solutions.
             </p>
             <p>
               <span class="text-cyan-400 font-bold">•</span>
-              <span class="font-bold">Full-Stack Development:</span> Expanding
-              expertise in HTML, CSS, JavaScript, TypeScript, ReactJS, Tailwind
-              CSS, NodeJS, ExpressJS, and MongoDB.
+              <span class="font-bold">Full-Stack Development:</span> Currently
+              working as a Full Stack Intern at
+              <a
+                href="https://www.capsitech.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="text-cyan-400 hover:underline hover:text-cyan-300 transition-colors duration-200 font-semibold"
+              >
+                Capsitech </a
+              >, while expanding expertise in modern web technologies like HTML,
+              CSS, JavaScript, TypeScript, ReactJS, Tailwind CSS, Redux Toolkit,
+              AntDesign, C#, .NET, and MongoDB.
             </p>
-            <p>
-              <span class="text-cyan-400 font-bold">•</span>
-              <span class="font-bold">Objective:</span> Build scalable and
-              efficient web applications with seamless user experiences.
-            </p>
-            <p>
-              <span class="text-cyan-400 font-bold">•</span>
-              <span class="font-bold">Mindset:</span> Thrive on challenges, love
-              learning new technologies, and eager to collaborate on innovative
-              projects.
-            </p>
+            <a
+              href="./Priyanshu_Yadav_Resume.pdf.pdf"
+              download
+              class="mt-6 inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white text-sm sm:text-base font-semibold px-6 py-3 rounded-full shadow-lg hover:from-cyan-600 hover:to-blue-600 hover:scale-105 active:scale-100 focus:outline-none focus:ring-4 focus:ring-cyan-300 transition-all duration-300 ease-in-out"
+            >
+              📄 Download Resume
+            </a>
           </div>
         </div>
       </div>
@@ -419,7 +440,7 @@
           class="w-4 h-4 rounded-full border-3 absolute left-1/2 -translate-x-1/2 bg-[#111] z-10 hover:scale-110 ease-in-out duration-100 cursor-pointer text-[#007749] hidden sm:block"
         ></div>
         <a
-          href="https://country-api-by-priyanshu.netlify.app/"
+          href="https://multiusertodoapp.netlify.app/"
           target="_blank"
           class="w-full flex relative justify-center sm:justify-start"
         >
@@ -428,7 +449,7 @@
           >
             <span
               class="group-hover:-top-10 ease-[cubic-bezier(0.68,-0.55,0.265,1.55)] duration-100 visit-site bg-[#007749] text-light px-4 py-2 rounded shadow-md flex items-center absolute top-12 left-1/2 -translate-1/2 w-max after:content-[''] after:w-4 after:h-4 after:bg-[#007749] after:absolute after:left-1/2 after:-translate-x-1/2 after:rotate-45 after:-bottom-2"
-              >Country API
+              >Multi-User-Todo
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -450,23 +471,39 @@
             </span>
             <img
               class="m-w-[400px] mr-auto relative drop-shadow-[0_0px_50px_rgba(59,130,246,0.8)]"
-              src="./assets/images/Country.png"
+              src="./assets//images//multiusertodo.png"
               alt=""
             />
           </div>
         </a>
         <div class="w-full">
-          <h3 class="text-[#007749] font-bold text-4xl">Country API</h3>
-          <span class="text-[#8d153a] text-lg"> (Worldwide Data)</span>
+          <h3 class="text-[#007749] font-bold text-4xl">
+            Multi-User To-Do App
+          </h3>
+          <span class="text-[#8d153a] text-lg"
+            >(Real-Time Task Management)</span
+          >
           <p class="text-justify mt-2">
-            A comprehensive web application that displays detailed information
-            about countries from around the globe. Built from scratch, this
-            project showcases search functionality, filtering options, and
-            dynamic data rendering, allowing users to explore everything from
-            basic facts like population and capital to more nuanced regional
-            details.
+            A full-featured task management application that allows users to
+            register, log in, and manage their personal to-do lists securely.
+            Built using React.js and Redux Toolkit for efficient state
+            management, with smooth navigation via React Router. Styled using
+            Tailwind CSS and Ant Design, the app ensures a responsive and
+            intuitive user interface. Users can add and delete tasks, and
+            receive real-time feedback using React Hot Toast. Each user's data
+            is isolated, ensuring a personalized experience after login
           </p>
           <ul class="flex flex-wrap gap-2 mt-2">
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #html
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #tailwindcss 
+            </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
@@ -475,27 +512,17 @@
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #express.js
+              #redux-toolkit
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #node.js
+              #react-router
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #swiper.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoDB
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoose
+              #ant-design
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
@@ -510,7 +537,7 @@
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #figma
+              #react-hot-toast
             </li>
           </ul>
         </div>
@@ -521,14 +548,29 @@
       >
         <div class="w-full">
           <h3 class="text-[#ffd600] font-bold text-4xl">Quiz App</h3>
-          <span class="text-[#35bd3a] text-lg">(Interactive Learning) </span>
+          <span class="text-[#35bd3a] text-lg"
+            >(Timed Interactive Quiz Experience)</span
+          >
           <p class="text-justify mt-2">
-            An engaging quiz application designed to test users' knowledge
-            across various topics. Features a dynamic question set, real-time
-            score tracking, and an intuitive user interface for a seamless
-            experience. Built with a focus on responsiveness and interactivity.
+            A responsive and interactive quiz application built using React.js,
+            Tailwind CSS, and asynchronous JavaScript. Each question is timed
+            with a 30-second countdown, and the background color dynamically
+            changes based on the time left — adding urgency and engagement to
+            the user experience. The app ensures smooth transitions between
+            questions and delivers real-time feedback, making it ideal for
+            fast-paced knowledge testing.
           </p>
           <ul class="flex flex-wrap gap-2 mt-2">
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #html
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+               #tailwindcss 
+            </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
@@ -537,27 +579,17 @@
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #express.js
+              #asynchronous-js
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #node.js
+              #vite
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #swiper.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoDB
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoose
+              #timed-quiz
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
@@ -680,32 +712,7 @@
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #react.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #express.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #node.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #swiper.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoDB
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoose
+              #html
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
@@ -721,6 +728,11 @@
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
               #figma
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #memory-game
             </li>
           </ul>
         </div>
@@ -735,39 +747,19 @@
             >(Real-time Exchange Rate Calculator)</span
           >
           <p class="text-justify mt-2">
-            A simple yet powerful currency converter that allows users to
-            convert between multiple currencies using real-time exchange rates.
+            A simple and responsive currency converter built with pure HTML,
+            CSS, and JavaScript. It fetches live exchange rates using
+            asynchronous JavaScript from a public API and allows users to
+            convert between multiple global currencies instantly. The
+            application features a user-friendly interface, real-time
+            conversions, and smooth error handling — all without relying on any
+            frameworks or libraries.
           </p>
           <ul class="flex flex-wrap gap-2 mt-2">
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #react.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #express.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #node.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #swiper.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoDB
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoose
+              #html
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
@@ -782,7 +774,12 @@
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #figma
+              #api-integration
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #currency-converter
             </li>
           </ul>
         </div>
@@ -883,15 +880,16 @@
         </a>
         <div class="w-full">
           <h3 class="text-[#007749] font-bold text-4xl">Gemini Clone</h3>
-          <span class="text-[#8d153a] text-lg"> (Worldwide Data)</span>
+          <span class="text-[#8d153a] text-lg">(Google Gemini UI Clone)</span>
           <p class="text-justify mt-2">
-            Gemini Clone is an AI-powered web application inspired by Google's
-            Gemini. It enables users to interact with a virtual assistant
-            through natural language queries. The app provides real-time
-            responses, supports voice input, and delivers an intuitive chat
-            experience with animated typing effects. This project highlights
-            your front-end skills using React and Tailwind CSS while integrating
-            essential UI features like scroll handling and responsive design.
+            A fully functional AI chatbot interface inspired by Google Gemini,
+            built using React.js, CSS, and Vite. The application integrates the
+            Google Gemini API to process user input and generate intelligent,
+            context-aware responses in real time. Designed with a sleek,
+            responsive UI, the app mimics the real Gemini experience with
+            features like conversational flow, loading indicators, and a modern
+            chat layout. This project showcases API integration, asynchronous
+            data handling, and dynamic frontend development.
           </p>
           <ul class="flex flex-wrap gap-2 mt-2">
             <li
@@ -902,32 +900,32 @@
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
             >
-              #express.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #node.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #swiper.js
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoDB
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
-              #mongoose
-            </li>
-            <li
-              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
-            >
               #css
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #vite
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #google-gemini-api
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+               #ai-chatbot
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #async-js
+            </li>
+            <li
+              class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
+            >
+              #responsive-ui
             </li>
             <li
               class="border rounded-[50px] border-[#999] px-[10px] py-[5px] text-sm md:text-base"
